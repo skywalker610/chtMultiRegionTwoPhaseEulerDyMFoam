@@ -21,8 +21,8 @@ EXE_INC = \
     -I$(LIB_SRC)/TurbulenceModels/turbulenceModels/lnInclude \
     -I$(LIB_SRC)/TurbulenceModels/compressible/lnInclude \
     -I$(LIB_SRC)/TurbulenceModels/phaseCompressible/lnInclude \
-    -I$(LIB_SRC)/regionModels/regionModel/lnInclude
-
+    -I$(LIB_SRC)/regionModels/regionModel/lnInclude \
+    -I$(LIB_SRC)/dynamicFvMesh/lnInclude
 
 EXE_LIBS = \
     -lcompressibleTransportModels \
@@ -37,4 +37,5 @@ EXE_LIBS = \
     -lregionModels \
     -lsampling \
     -lreactingTwoPhaseSystem \
-    -lreactingPhaseSystem
+    -lreactingPhaseSystem \
+    -ldynamicFvMesh
