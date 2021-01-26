@@ -1,5 +1,0 @@
-derivedFvPatchFields/turbulentTemperatureTwoPhaseRadCoupledMixed/turbulentTemperatureTwoPhaseRadCoupledMixedFvPatchScalarField.C
-../solid/solidRegionDiffNo.C
-chtMultiRegionTwoPhaseEulerDyMFoam.C
-
-EXE = $(FOAM_APPBIN)/chtMultiRegionTwoPhaseEulerDyMFoam
